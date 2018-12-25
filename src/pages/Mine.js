@@ -5,12 +5,13 @@ import { FormLabel, FormInput, FormValidationMessage } from 'react-native-elemen
 import { ScrollView } from 'react-native-gesture-handler';
 import { firebaseApp } from '../config';
 import RNFetchBlob from 'rn-fetch-blob';
+import ImageResizer from 'react-native-image-resizer';
 var storageRef = firebaseApp.storage();
 const Blob = RNFetchBlob.polyfill.Blob;
 window.XMLHttpRequest = RNFetchBlob.polyfill.XMLHttpRequest;
 window.Blob = Blob;
 
-var uploadImage=(uri)=> {
+function uploadImage(uri) {
   return new Promise((res) =>{
   var ID = new Date().getTime();
   var imageRef = storageRef.ref(`images`).child(`${ID}`);
@@ -25,6 +26,21 @@ var uploadImage=(uri)=> {
         return res(url);
       })
     })
+  })
+}
+
+function resize(uri) {
+  return new Promise((res) =>{
+    ImageResizer.createResizedImage(uri, 200, 200, 'JPEG', 100)
+    .then(({ uri }) => {
+      uploadImage(uri).then((url)=>{
+        return res(url)
+      })
+    })
+    .catch(err => {
+      console.log(err);
+      return Alert.alert('Unable to resize the photo', 'Check the console for full the error message');
+    });
   })
 }
 export default class TransactionHistoryComponent extends Component {
@@ -49,7 +65,8 @@ export default class TransactionHistoryComponent extends Component {
       phone: null,
       infor: null,
       imageAdd: null,
-      image: null
+      image: null,
+      resizedImageUri:null
     };
   }
   pickImage() {
@@ -72,13 +89,19 @@ export default class TransactionHistoryComponent extends Component {
       this.setState({
         imageAdd: url
       })
+    });
+    resize(urlImage).then(url =>{
+      this.setState({
+        resizedImageUri: url
+      })
     })
     this.itemRef.push({
       name: name,
       add: add,
       phone: phone,
       infor: infor,
-      imageAdd: this.state.imageAdd
+      imageAdd: this.state.imageAdd,
+      resizedImageAdd: this.state.resizedImageUri
     })
   }
   renderImage(image) {
