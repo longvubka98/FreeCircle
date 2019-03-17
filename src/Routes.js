@@ -1,49 +1,76 @@
-import { createBottomTabNavigator, createStackNavigator, createAppContainer } from 'react-navigation';
-import HomeComponent from './pages/Home';
-import PromotionComponent from './pages/Recived';
-import TransactionHistoryComponent from './pages/Mine';
+import { Dimensions } from 'react-native';
+import { createBottomTabNavigator, createStackNavigator, createAppContainer, createDrawerNavigator } from 'react-navigation';
+import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs'
+import BangTin from './pages/BangTin';
+import DoDaNhan from './pages/DoDaNhan';
+import DoDaDang from './pages/DoDaDang';
+import DangDo from './pages/DangDo';
 import Login from './pages/Login'
 import SignUp from './pages/Signup'
+import ThongTin from './pages/ThongTin'
 // import Recived from './pages/Recived'
-
-let routeConfigs = {
-  'Home': {
-    screen: HomeComponent,
+var { height, width } = Dimensions.get('window');
+let RouteConfigs = {
+  'BangTin': {
+    screen: BangTin,
   },
-  'Promotion': {
-    screen: PromotionComponent,
+  'DoDaNhan': {
+    screen: DoDaNhan,
   },
-  'Transaction': {
-    screen: TransactionHistoryComponent,
+  'DangDo': {
+    screen: DangDo,
+  },
+  'ThongTin': {
+    screen: ThongTin
   }
 };
 
-let tabNavigatorConfig = {
-  tabBarPosition: 'bottom',
-  animationEnabled: true,
-  swipeEnabled: true,
-  tabBarOptions: {
-    showIcon: true,
-    activeTintColor: 'blue',
-    labelStyle: {
-      fontSize: 13,
-    },
-    style: {
-      backgroundColor: 'lightgray',
-      padding: -10
-    },
-  },
-  order: ['Home', 'Promotion', 'Transaction'],
+let MaterialBottomTabNavigatorConfig = {
+  shifting: true,
+  labeled: true,
+  activeColor: '#fff',
+  inactiveColor: '#F5F5F5',
+  order: ['BangTin', 'DoDaNhan', 'DangDo'],
+  barStyle: {
+   
+  }
+  // tabBarPosition: 'bottom',
+  // animationEnabled: true,
+  // swipeEnabled: true,
+  // tabBarOptions: {
+  //   showIcon: true,
+  //   activeTintColor: 'blue',
+  // labelStyle: {
+  //   fontSize: 13,
+  // },
+  // style: {
+  //   backgroundColor: 'lightgray',
+  //   padding: -10
+  // },
+  // },
+  // order: ['BangTin', 'DoDaNhan', 'DangDo'],
 };
 
-const TabNavigator = createBottomTabNavigator(routeConfigs, tabNavigatorConfig);
+const TabNavigator = createMaterialBottomTabNavigator(RouteConfigs, MaterialBottomTabNavigatorConfig);
+const Drawer = createDrawerNavigator({
+  Tab: TabNavigator,
+  Me: DoDaDang
+},
+  {
+    drawerWidth: width / 1.61,
+    drawerPosition: 'left',
+    contentOptions: {
+      activeTintColor: 'red',
+    }
+  }
+)
 const Stack = createStackNavigator({
   Login: Login,
-  Tabs: TabNavigator,
+  Drawer: Drawer,
   SignUp: SignUp,
-  // Recived: {screen: Recived}
+  ThongTin: ThongTin
 },
-{
-  headerMode: 'none'
- });
- export const AppNavigator = createAppContainer(Stack);
+  {
+    headerMode: 'none'
+  });
+export const AppNavigator = createAppContainer(Stack);

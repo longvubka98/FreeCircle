@@ -1,16 +1,21 @@
 import React, { Component } from 'react';
+import firebase from '@firebase/app'
 import {
   StyleSheet,
   Text,
   View,
-  StatusBar,
+  ImageBackground,
   TextInput,
   TouchableOpacity,
   Alert
 } from 'react-native';
 
 import Logo from '../components/Logo';
-import {firebaseApp} from '../config';
+import { firebaseApp } from '../config';
+import FBSDK, { LoginManager, AccessToken } from 'react-native-fbsdk';
+// import RNAccountKit from 'react-native-facebook-account-kit'
+// import firebase from 'firebase'
+
 export default class Login extends Component {
   constructor(props) {
     super(props);
@@ -23,11 +28,11 @@ export default class Login extends Component {
     firebaseApp.auth().signInWithEmailAndPassword(this.state.email, this.state.password)
       .then(() => {
         Alert.alert(
-          'Tung hoa',
+          'Thành công',
           'Chúc mừng bạn đã đăng nhập thành công',
           [
             { text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel' },
-            { text: 'OK', onPress: () => this.props.navigation.navigate('Tabs') },
+            { text: 'OK', onPress: () => this.props.navigation.navigate('Drawer') },
           ],
           { cancelable: false }
         )
@@ -38,8 +43,8 @@ export default class Login extends Component {
       })
       .catch(function (error) {
         Alert.alert(
-          'Tịt',
-          'Chúc mừng bạn đã đăng nhập thành công',
+          'Thất bại',
+          'Sai tên tài khoản hoặc mật khẩu',
           [
             { text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel' },
             { text: 'OK', onPress: () => console.log('Cancel Pressed') },
@@ -52,12 +57,52 @@ export default class Login extends Component {
         })
       });
   }
-
+  DangNhapFacebook() {
+    LoginManager.logInWithReadPermissions(["public_profile", "email", "user_birthday"]).then(
+      (result) => {
+        if (result.isCancelled) {
+          console.log("Login cancelled");
+        } else {
+          console.log(
+            "Login success with permissions: " +
+            result.grantedPermissions.toString()
+          );
+          //Tải dữ liệu user facebook lên firebase
+          AccessToken.getCurrentAccessToken().then((data) => {
+            firebaseApp.auth().signInAndRetrieveDataWithCredential(firebase.auth.FacebookAuthProvider.credential(data.accessToken));
+          }).then(() => this.props.navigation.navigate('Drawer'))
+        }
+      },
+      function (error) {
+        console.log("Login fail with error: " + error);
+      }
+    );
+  }
+  DangNhapSdt() {
+    // RNAccountKit.loginWithPhone()
+    // .then((token) => {
+    //   if (!token) {
+    //     console.log('Login cancelled')
+    //   } else {
+    //     console.log(`Logged with phone. Token: ${token}`)
+    //   }
+    // })
+  }
+  DangXuat() {
+    LoginManager.logOut();
+  }
   render() {
     return (
-      <View style={styles.container}>
-        <Logo />
-        <TextInput style={styles.inputBox}
+      <ImageBackground source={require('../images/login-background.jpg')} style={{ width: '100%', height: '100%' }}>
+        <View style={styles.container}>
+          <Logo />
+          <TouchableOpacity onPress={() => this.DangNhapFacebook()} style={styles.button_facebook}>
+            <Text style={styles.buttonText}>Đăng nhập với facebook</Text>
+          </TouchableOpacity>
+          <TouchableOpacity onPress={() => this.DangNhapSdt()} style={styles.button_phone}>
+            <Text style={styles.buttonText}>Đăng nhập bằng số điện thoại</Text>
+          </TouchableOpacity>
+          {/* <TextInput style={styles.inputBox}
           underlineColorAndroid='rgba(0,0,0,0)'
           placeholder="Email"
           placeholderTextColor="#ffffff"
@@ -73,22 +118,23 @@ export default class Login extends Component {
           placeholderTextColor="#ffffff"
           onChangeText={(password) => this.setState({ password })}
           value={this.state.password}
-        />
-        <TouchableOpacity onPress={() => this.props.navigation.navigate('Tabs')} style={styles.button}>
+        /> */}
+          {/* <TouchableOpacity onPress={() => this.props.navigation.navigate('Drawer')} style={styles.button}>
           <Text style={styles.buttonText}>Đăng nhập</Text>
-        </TouchableOpacity>
-        <View style={styles.signupTextCont}>
-          <Text style={styles.signupText}>Bạn chưa có tài khoản?</Text>
-          <TouchableOpacity onPress={() => { this.props.navigation.navigate('SignUp') }}><Text style={styles.signupButton}>Đăng ký</Text></TouchableOpacity>
+        </TouchableOpacity> */}
+          <View style={styles.signupTextCont}>
+            <Text style={styles.signupText}>Bạn chưa có tài khoản?</Text>
+            <TouchableOpacity onPress={() => { this.props.navigation.navigate('SignUp') }}><Text style={styles.signupButton}>Đăng ký</Text></TouchableOpacity>
+          </View>
         </View>
-      </View>
+      </ImageBackground>
     )
   }
 }
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#95ccc1',
+    // backgroundColor: '#95ccc1',
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center'
@@ -118,13 +164,21 @@ const styles = StyleSheet.create({
     color: '#ffffff',
     marginVertical: 10
   },
-  button: {
+  button_phone: {
     width: 300,
     backgroundColor: '#138a72',
     borderRadius: 25,
     marginVertical: 10,
     paddingVertical: 13
   },
+  button_facebook: {
+    backgroundColor: '#3B5998',
+    borderRadius: 25,
+    marginVertical: 10,
+    paddingVertical: 13,
+    width: 300
+  },
+
   buttonText: {
     fontSize: 16,
     fontWeight: '500',

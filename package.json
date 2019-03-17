@@ -11,11 +11,14 @@
     "react": "16.6.1",
     "react-native": "0.57.7",
     "react-native-elements": "^0.19.1",
-    "react-native-gesture-handler": "^1.0.10",
+    "react-native-fbsdk": "^0.8.0",
+    "react-native-gesture-handler": "^1.1.0",
     "react-native-image-crop-picker": "^0.21.3",
     "react-native-image-resizer": "^1.0.0",
+    "react-native-paper": "^2.13.0",
     "react-native-vector-icons": "^6.1.0",
     "react-navigation": "^3.0.5",
+    "react-navigation-material-bottom-tabs": "^1.0.0",
     "rn-fetch-blob": "^0.10.14"
   },
   "devDependencies": {

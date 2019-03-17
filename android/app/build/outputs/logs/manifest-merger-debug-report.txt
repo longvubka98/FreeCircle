@@ -1,22 +1,37 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:1:1-31:12
-INJECTED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:1:1-31:12
-INJECTED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:1:1-31:12
-INJECTED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:1:1-31:12
+ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:1:1-32:12
+MERGED from [:react-native-vector-icons] F:\2.Study\FreeCircle\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-fbsdk] F:\2.Study\FreeCircle\node_modules\react-native-fbsdk\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:1-30:12
 MERGED from [:react-native-image-resizer] F:\2.Study\FreeCircle\node_modules\react-native-image-resizer\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:rn-fetch-blob] F:\2.Study\FreeCircle\node_modules\rn-fetch-blob\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-47:12
 MERGED from [:react-native-image-crop-picker] F:\2.Study\FreeCircle\node_modules\react-native-image-crop-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-28:12
 MERGED from [:react-native-gesture-handler] F:\2.Study\FreeCircle\node_modules\react-native-gesture-handler\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.57.7] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\react-native-0.57.7.aar\077350c808636d47a9a3468a2fd6a5ac\AndroidManifest.xml:2:1-15:12
 MERGED from [com.github.yalantis:ucrop:2.2.2-native] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\ucrop-2.2.2-native.aar\c9a8bcc4fc668d46b713b2bd89b24442\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.34.0.aar\3dcd5946811c340c1e1688d4bae4d9c4\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-login-4.34.0.aar\3031ffc2ef640fece6025d1ff24f01f5\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-share-4.34.0.aar\ecb981e46c04e0272d578cc2fb44e615\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\78247c78875d3487caeaa08ff95ef028\AndroidManifest.xml:21:1-37:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\d800d255da42e9d4d6cbd8ff8a7b1b4a\AndroidManifest.xml:17:1-22:12
 MERGED from [id.zelory:compressor:2.1.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\compressor-2.1.0.aar\e44d28f13ec12b3469c39d6729f8b34a\AndroidManifest.xml:2:1-12:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\1ca952e99846baf7030de72f2c0760ba\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-places:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-places-4.34.0.aar\c8078ae56dcb2d396d3848e58d92d791\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.34.0.aar\93b3d50dd2e72ef38e96fa1d80a8e85c\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.34.0.aar\3c2ea1f7cdac03830c00fde09c1ab87a\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-marketing:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.34.0.aar\af59d1c3f911660b79ce71d3d3de9994\AndroidManifest.xml:21:1-35:12
+MERGED from [com.facebook.android:facebook-core:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\939ff6680799194e97f3e61fc06c87f8\AndroidManifest.xml:21:1-53:12
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\31182f5ca4cd6261dc69648961bd0a64\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\e65603bece288c03f99d186a053f6808\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\717b182034bc95a3046fe5b7d7efc32b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\a6a4cb6649444cbca994d22003045b01\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\ad6f09582560566cd4422892c9fd333b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\8cb3bfec659fcd22fe3e90ecfefa1d73\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\1ca952e99846baf7030de72f2c0760ba\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\bb3de35b3b00afc1a57ff300583644fe\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\04c329f51917cd2f0993b7d4c81f21ee\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\8cb3bfec659fcd22fe3e90ecfefa1d73\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\b06c1a483a80e074d4f0db385a6a244a\AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\fresco-1.10.0.aar\fe6bfe3dcd8d99f6d5a4fe541313d800\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.10.0.aar\6c716db822dd470416b3c94339d39ea1\AndroidManifest.xml:2:1-9:12
@@ -26,24 +41,24 @@ MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\vupro\.grad
 MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\2309c0e686d4b5da1f9eb00bc87dc8b4\AndroidManifest.xml:2:1-13:12
 MERGED from [org.webkit:android-jsc:r174650] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\eb239fd128aa20d539ec78c5157f6ac8\AndroidManifest.xml:1:1-3:12
 MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\6e250dad1407341bb09033400afca96b\AndroidManifest.xml:2:1-9:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\24b1861c7e598dddf1ba2848575575fa\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\3c9245ab01ada0c57bb7f0d722d7c5d5\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8e60446435c50d7fe9e7553d6df19a70\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\24b1861c7e598dddf1ba2848575575fa\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\336715ab499ecef3c0fd7f3a3981cf20\AndroidManifest.xml:17:1-22:12
-INJECTED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:1:1-31:12
-INJECTED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:1:1-31:12
-INJECTED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:1:1-31:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\3c9245ab01ada0c57bb7f0d722d7c5d5\AndroidManifest.xml:17:1-22:12
+INJECTED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:1:1-32:12
+INJECTED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:1:1-32:12
 	package
 		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:2:5-29
 		INJECTED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml
 		INJECTED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml
-		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:1:1-31:12
+		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:1:1-32:12
 		INJECTED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml
-		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:1:1-31:12
+		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:1:1-32:12
 		INJECTED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:1:11-69
@@ -80,17 +95,39 @@ ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:9:5-88
 	android:name
 		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:9:22-85
 application
-ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:11:5-29:19
+ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:11:5-30:19
+MERGED from [:react-native-fbsdk] F:\2.Study\FreeCircle\node_modules\react-native-fbsdk\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:28:5-20
+MERGED from [:react-native-fbsdk] F:\2.Study\FreeCircle\node_modules\react-native-fbsdk\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:28:5-20
 MERGED from [:rn-fetch-blob] F:\2.Study\FreeCircle\node_modules\rn-fetch-blob\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:35:5-45:19
 MERGED from [:rn-fetch-blob] F:\2.Study\FreeCircle\node_modules\rn-fetch-blob\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:35:5-45:19
 MERGED from [:react-native-image-crop-picker] F:\2.Study\FreeCircle\node_modules\react-native-image-crop-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-26:19
 MERGED from [:react-native-image-crop-picker] F:\2.Study\FreeCircle\node_modules\react-native-image-crop-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-26:19
 MERGED from [com.facebook.react:react-native:0.57.7] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\react-native-0.57.7.aar\077350c808636d47a9a3468a2fd6a5ac\AndroidManifest.xml:13:5-20
 MERGED from [com.facebook.react:react-native:0.57.7] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\react-native-0.57.7.aar\077350c808636d47a9a3468a2fd6a5ac\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.34.0.aar\3dcd5946811c340c1e1688d4bae4d9c4\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.34.0.aar\3dcd5946811c340c1e1688d4bae4d9c4\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-login-4.34.0.aar\3031ffc2ef640fece6025d1ff24f01f5\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-login-4.34.0.aar\3031ffc2ef640fece6025d1ff24f01f5\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-share-4.34.0.aar\ecb981e46c04e0272d578cc2fb44e615\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-share-4.34.0.aar\ecb981e46c04e0272d578cc2fb44e615\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\78247c78875d3487caeaa08ff95ef028\AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\78247c78875d3487caeaa08ff95ef028\AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-places:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-places-4.34.0.aar\c8078ae56dcb2d396d3848e58d92d791\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-places-4.34.0.aar\c8078ae56dcb2d396d3848e58d92d791\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.34.0.aar\93b3d50dd2e72ef38e96fa1d80a8e85c\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.34.0.aar\93b3d50dd2e72ef38e96fa1d80a8e85c\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.34.0.aar\3c2ea1f7cdac03830c00fde09c1ab87a\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.34.0.aar\3c2ea1f7cdac03830c00fde09c1ab87a\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-marketing:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.34.0.aar\af59d1c3f911660b79ce71d3d3de9994\AndroidManifest.xml:28:5-33:19
+MERGED from [com.facebook.android:facebook-marketing:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.34.0.aar\af59d1c3f911660b79ce71d3d3de9994\AndroidManifest.xml:28:5-33:19
+MERGED from [com.facebook.android:facebook-core:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\939ff6680799194e97f3e61fc06c87f8\AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\939ff6680799194e97f3e61fc06c87f8\AndroidManifest.xml:28:5-51:19
 MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\2309c0e686d4b5da1f9eb00bc87dc8b4\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\2309c0e686d4b5da1f9eb00bc87dc8b4\AndroidManifest.xml:11:5-20
 MERGED from [org.webkit:android-jsc:r174650] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\eb239fd128aa20d539ec78c5157f6ac8\AndroidManifest.xml:2:3-17
 MERGED from [org.webkit:android-jsc:r174650] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\eb239fd128aa20d539ec78c5157f6ac8\AndroidManifest.xml:2:3-17
+	android:supportsRtl
+		ADDED from [com.facebook.android:facebook-android-sdk:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.34.0.aar\3dcd5946811c340c1e1688d4bae4d9c4\AndroidManifest.xml:28:18-44
 	android:label
 		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:13:7-39
 	android:icon
@@ -101,38 +138,48 @@ MERGED from [org.webkit:android-jsc:r174650] C:\Users\vupro\.gradle\caches\trans
 		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:16:7-38
 	android:name
 		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:12:7-38
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:17:9-107
+	android:value
+		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:17:66-105
+	android:name
+		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:17:20-65
 activity#com.freecircle.MainActivity
-ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:17:7-27:18
+ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:18:7-28:18
 	android:label
-		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:19:9-41
+		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:20:9-41
 	android:windowSoftInputMode
-		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:21:9-51
+		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:22:9-51
 	android:configChanges
-		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:20:9-79
+		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:21:9-79
 	android:name
-		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:18:9-37
+		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:19:9-37
 intent-filter#action:name:android.intent.action.DOWNLOAD_COMPLETE+action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:22:9-26:25
+ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:23:9-27:25
 action#android.intent.action.MAIN
-ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:23:13-65
+ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:24:13-65
 	android:name
-		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:23:21-62
+		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:24:21-62
 category#android.intent.category.LAUNCHER
-ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:24:13-73
+ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:25:13-73
 	android:name
-		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:24:23-70
+		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:25:23-70
 action#android.intent.action.DOWNLOAD_COMPLETE
-ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:25:13-77
+ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:26:13-77
 	android:name
-		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:25:21-75
+		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:26:21-75
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:28:7-84
+ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:29:7-84
 	android:name
-		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:28:17-81
+		ADDED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:29:17-81
 uses-sdk
 INJECTED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml
 INJECTED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-vector-icons] F:\2.Study\FreeCircle\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] F:\2.Study\FreeCircle\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-fbsdk] F:\2.Study\FreeCircle\node_modules\react-native-fbsdk\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:24:5-26:41
+MERGED from [:react-native-fbsdk] F:\2.Study\FreeCircle\node_modules\react-native-fbsdk\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:24:5-26:41
 MERGED from [:react-native-image-resizer] F:\2.Study\FreeCircle\node_modules\react-native-image-resizer\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-image-resizer] F:\2.Study\FreeCircle\node_modules\react-native-image-resizer\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:rn-fetch-blob] F:\2.Study\FreeCircle\node_modules\rn-fetch-blob\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
@@ -145,20 +192,46 @@ MERGED from [com.facebook.react:react-native:0.57.7] C:\Users\vupro\.gradle\cach
 MERGED from [com.facebook.react:react-native:0.57.7] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\react-native-0.57.7.aar\077350c808636d47a9a3468a2fd6a5ac\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.yalantis:ucrop:2.2.2-native] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\ucrop-2.2.2-native.aar\c9a8bcc4fc668d46b713b2bd89b24442\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.yalantis:ucrop:2.2.2-native] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\ucrop-2.2.2-native.aar\c9a8bcc4fc668d46b713b2bd89b24442\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.34.0.aar\3dcd5946811c340c1e1688d4bae4d9c4\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.34.0.aar\3dcd5946811c340c1e1688d4bae4d9c4\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-login-4.34.0.aar\3031ffc2ef640fece6025d1ff24f01f5\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-login-4.34.0.aar\3031ffc2ef640fece6025d1ff24f01f5\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-share-4.34.0.aar\ecb981e46c04e0272d578cc2fb44e615\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-share-4.34.0.aar\ecb981e46c04e0272d578cc2fb44e615\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\78247c78875d3487caeaa08ff95ef028\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\78247c78875d3487caeaa08ff95ef028\AndroidManifest.xml:24:5-26:41
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\d800d255da42e9d4d6cbd8ff8a7b1b4a\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\d800d255da42e9d4d6cbd8ff8a7b1b4a\AndroidManifest.xml:20:5-44
 MERGED from [id.zelory:compressor:2.1.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\compressor-2.1.0.aar\e44d28f13ec12b3469c39d6729f8b34a\AndroidManifest.xml:8:5-10:41
 MERGED from [id.zelory:compressor:2.1.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\compressor-2.1.0.aar\e44d28f13ec12b3469c39d6729f8b34a\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\1ca952e99846baf7030de72f2c0760ba\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\1ca952e99846baf7030de72f2c0760ba\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-places:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-places-4.34.0.aar\c8078ae56dcb2d396d3848e58d92d791\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-places-4.34.0.aar\c8078ae56dcb2d396d3848e58d92d791\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.34.0.aar\93b3d50dd2e72ef38e96fa1d80a8e85c\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.34.0.aar\93b3d50dd2e72ef38e96fa1d80a8e85c\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.34.0.aar\3c2ea1f7cdac03830c00fde09c1ab87a\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.34.0.aar\3c2ea1f7cdac03830c00fde09c1ab87a\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-marketing:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.34.0.aar\af59d1c3f911660b79ce71d3d3de9994\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-marketing:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.34.0.aar\af59d1c3f911660b79ce71d3d3de9994\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\939ff6680799194e97f3e61fc06c87f8\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\939ff6680799194e97f3e61fc06c87f8\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\31182f5ca4cd6261dc69648961bd0a64\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\31182f5ca4cd6261dc69648961bd0a64\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\e65603bece288c03f99d186a053f6808\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\e65603bece288c03f99d186a053f6808\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\717b182034bc95a3046fe5b7d7efc32b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\717b182034bc95a3046fe5b7d7efc32b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\a6a4cb6649444cbca994d22003045b01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\a6a4cb6649444cbca994d22003045b01\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\ad6f09582560566cd4422892c9fd333b\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\ad6f09582560566cd4422892c9fd333b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\8cb3bfec659fcd22fe3e90ecfefa1d73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\8cb3bfec659fcd22fe3e90ecfefa1d73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\1ca952e99846baf7030de72f2c0760ba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\1ca952e99846baf7030de72f2c0760ba\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\bb3de35b3b00afc1a57ff300583644fe\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\bb3de35b3b00afc1a57ff300583644fe\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\04c329f51917cd2f0993b7d4c81f21ee\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\04c329f51917cd2f0993b7d4c81f21ee\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\8cb3bfec659fcd22fe3e90ecfefa1d73\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\8cb3bfec659fcd22fe3e90ecfefa1d73\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\b06c1a483a80e074d4f0db385a6a244a\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\b06c1a483a80e074d4f0db385a6a244a\AndroidManifest.xml:20:5-44
 MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\fresco-1.10.0.aar\fe6bfe3dcd8d99f6d5a4fe541313d800\AndroidManifest.xml:5:5-7:41
@@ -175,14 +248,14 @@ MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\vupro\.gradle\caches
 MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\2309c0e686d4b5da1f9eb00bc87dc8b4\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\6e250dad1407341bb09033400afca96b\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\6e250dad1407341bb09033400afca96b\AndroidManifest.xml:5:5-7:41
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\24b1861c7e598dddf1ba2848575575fa\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\24b1861c7e598dddf1ba2848575575fa\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\3c9245ab01ada0c57bb7f0d722d7c5d5\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\3c9245ab01ada0c57bb7f0d722d7c5d5\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8e60446435c50d7fe9e7553d6df19a70\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8e60446435c50d7fe9e7553d6df19a70\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\24b1861c7e598dddf1ba2848575575fa\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\24b1861c7e598dddf1ba2848575575fa\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\336715ab499ecef3c0fd7f3a3981cf20\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\336715ab499ecef3c0fd7f3a3981cf20\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\3c9245ab01ada0c57bb7f0d722d7c5d5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\3c9245ab01ada0c57bb7f0d722d7c5d5\AndroidManifest.xml:20:5-44
 INJECTED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml
 INJECTED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -235,5 +308,49 @@ ADDED from [:react-native-image-crop-picker] F:\2.Study\FreeCircle\node_modules\
 		ADDED from [:react-native-image-crop-picker] F:\2.Study\FreeCircle\node_modules\react-native-image-crop-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:13-69
 	android:name
 		ADDED from [:react-native-image-crop-picker] F:\2.Study\FreeCircle\node_modules\react-native-image-crop-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:24:13-60
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-common:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\78247c78875d3487caeaa08ff95ef028\AndroidManifest.xml:29:9-32:66
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-common:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\78247c78875d3487caeaa08ff95ef028\AndroidManifest.xml:31:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\78247c78875d3487caeaa08ff95ef028\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\78247c78875d3487caeaa08ff95ef028\AndroidManifest.xml:30:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\78247c78875d3487caeaa08ff95ef028\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\78247c78875d3487caeaa08ff95ef028\AndroidManifest.xml:33:19-68
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-common:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\78247c78875d3487caeaa08ff95ef028\AndroidManifest.xml:34:9-67
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\78247c78875d3487caeaa08ff95ef028\AndroidManifest.xml:34:19-64
+provider#com.facebook.marketing.internal.MarketingInitProvider
+ADDED from [com.facebook.android:facebook-marketing:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.34.0.aar\af59d1c3f911660b79ce71d3d3de9994\AndroidManifest.xml:29:9-32:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-marketing:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.34.0.aar\af59d1c3f911660b79ce71d3d3de9994\AndroidManifest.xml:31:13-73
+	android:exported
+		ADDED from [com.facebook.android:facebook-marketing:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.34.0.aar\af59d1c3f911660b79ce71d3d3de9994\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-marketing:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.34.0.aar\af59d1c3f911660b79ce71d3d3de9994\AndroidManifest.xml:30:13-81
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\939ff6680799194e97f3e61fc06c87f8\AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\939ff6680799194e97f3e61fc06c87f8\AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\939ff6680799194e97f3e61fc06c87f8\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\939ff6680799194e97f3e61fc06c87f8\AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\939ff6680799194e97f3e61fc06c87f8\AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\939ff6680799194e97f3e61fc06c87f8\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\939ff6680799194e97f3e61fc06c87f8\AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\939ff6680799194e97f3e61fc06c87f8\AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\939ff6680799194e97f3e61fc06c87f8\AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.34.0] C:\Users\vupro\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\939ff6680799194e97f3e61fc06c87f8\AndroidManifest.xml:48:25-92
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:1:1-31:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from F:\2.Study\FreeCircle\android\app\src\main\AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
