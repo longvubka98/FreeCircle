@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FreeCircle.iml" filepath="$PROJECT_DIR$/FreeCircle.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-facebook-account-kit/android/react-native-facebook-account-kit.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-facebook-account-kit/android/react-native-facebook-account-kit.iml" />
       <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-fbsdk/android/react-native-fbsdk.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-fbsdk/android/react-native-fbsdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-gesture-handler/android/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-gesture-handler/android/react-native-gesture-handler.iml" />
       <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-image-crop-picker/android/react-native-image-crop-picker.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-image-crop-picker/android/react-native-image-crop-picker.iml" />

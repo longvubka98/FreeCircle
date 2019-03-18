@@ -9,6 +9,7 @@ buildscript {
         supportLibVersion = "27.1.1"
     }
     repositories {
+        mavenCentral()
         google()
         jcenter()
     }
@@ -38,8 +39,18 @@ allprojects {
     }
 }
 
-
 task wrapper(type: Wrapper) {
     gradleVersion = '4.4'
     distributionUrl = distributionUrl.replace("bin", "all")
+}
+
+subprojects {
+    project.configurations.all {
+        resolutionStrategy.eachDependency { details ->
+            if (details.requested.group == 'com.android.support'
+                    && !details.requested.name.contains('multidex') ) {
+                details.useVersion "26.1.0"
+            }
+        }
+    }
 }

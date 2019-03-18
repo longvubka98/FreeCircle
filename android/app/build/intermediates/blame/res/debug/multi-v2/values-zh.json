@@ -4,7 +4,7 @@
             "outputFile": "F:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\vupro\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.2-native.aar\\c9a8bcc4fc668d46b713b2bd89b24442\\res\\values-zh\\values-zh.xml",
+                    "source": "C:\\Users\\vupro\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.2-native.aar\\9da72222ceab3e823c91170cc7e3d9d5\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

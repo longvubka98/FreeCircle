@@ -13,7 +13,7 @@ import {
 import Logo from '../components/Logo';
 import { firebaseApp } from '../config';
 import FBSDK, { LoginManager, AccessToken } from 'react-native-fbsdk';
-// import RNAccountKit from 'react-native-facebook-account-kit'
+import RNAccountKit from 'react-native-facebook-account-kit'
 // import firebase from 'firebase'
 
 export default class Login extends Component {
@@ -79,14 +79,14 @@ export default class Login extends Component {
     );
   }
   DangNhapSdt() {
-    // RNAccountKit.loginWithPhone()
-    // .then((token) => {
-    //   if (!token) {
-    //     console.log('Login cancelled')
-    //   } else {
-    //     console.log(`Logged with phone. Token: ${token}`)
-    //   }
-    // })
+    RNAccountKit.loginWithPhone()
+    .then((token) => {
+      if (!token) {
+        console.log('Login cancelled')
+      } else {
+        console.log(`Logged with phone. Token: ${token}`)
+      }
+    })
   }
   DangXuat() {
     LoginManager.logOut();

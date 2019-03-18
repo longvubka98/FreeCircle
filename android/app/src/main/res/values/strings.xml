@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">FreeCircle</string>
     <string name="facebook_app_id">315236699199016</string>
+    <string name="ak_client_token">f62fc9baa0f62b1f399bf293c06e0aab</string>
 </resources>

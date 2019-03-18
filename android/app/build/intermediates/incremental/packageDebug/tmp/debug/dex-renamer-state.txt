@@ -1,4 +1,7 @@
-#Sun Mar 17 14:44:54 ICT 2019
+#Mon Mar 18 11:47:04 ICT 2019
+base.1=F\:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.1=classes2.dex
 base.0=F\:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.1=classes2.dex
 renamed.0=classes.dex
 path.0=classes.dex

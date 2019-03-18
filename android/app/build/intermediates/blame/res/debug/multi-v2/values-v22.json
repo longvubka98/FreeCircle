@@ -4,7 +4,7 @@
             "outputFile": "F:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\vupro\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\d800d255da42e9d4d6cbd8ff8a7b1b4a\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\vupro\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8eaa22979377269679db33fce4dd61e2\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

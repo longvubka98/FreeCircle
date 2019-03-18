@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Mar 17 14:44:55 ICT 2019
+#Mon Mar 18 11:47:05 ICT 2019
 23.set=ASSET
 31.set=ASSET
 33.base=F\:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\assets\\debug
@@ -25,12 +25,14 @@
 17.set=NATIVE_RESOURCE
 24.path=lib/x86/libglog.so
 10.path=fonts/FontAwesome.ttf
+46.base=F\:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 21.path=lib/armeabi-v7a/libucrop.so
 38.path=lib/x86/libglog_init.so
 5.set=NATIVE_RESOURCE
 21.set=NATIVE_RESOURCE
 22.baseType=DIRECTORY
 40.baseType=DIRECTORY
+46.baseType=DIRECTORY
 7.set=NATIVE_RESOURCE
 28.baseType=DIRECTORY
 33.set=ASSET
@@ -40,6 +42,7 @@
 17.base=F\:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 11.baseType=DIRECTORY
 1.base=F\:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\assets\\debug
+46.set=DEX
 40.path=fonts/Foundation.ttf
 14.base=F\:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 6.path=lib/armeabi-v7a/libfb.so
@@ -124,7 +127,7 @@
 10.baseType=DIRECTORY
 13.path=fonts/FontAwesome5_Brands.ttf
 6.set=NATIVE_RESOURCE
-count=46
+count=47
 39.baseType=DIRECTORY
 34.set=NATIVE_RESOURCE
 34.baseType=DIRECTORY
@@ -132,6 +135,7 @@ count=46
 16.set=NATIVE_RESOURCE
 41.base=F\:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\assets\\debug
 29.set=NATIVE_RESOURCE
+46.path=classes2.dex
 7.base=F\:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 32.path=fonts/MaterialIcons.ttf
 9.path=lib/armeabi-v7a/libimagepipeline.so

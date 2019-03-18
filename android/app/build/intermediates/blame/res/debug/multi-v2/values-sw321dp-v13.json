@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw321dp-v13\\values-sw321dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\vupro\\.gradle\\caches\\transforms-1\\files-1.1\\account-kit-sdk-4.39.0.aar\\9d598950ddd93a88080b4e2577e3eca8\\res\\values-sw321dp-v13\\values-sw321dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,118",
+                        "endColumns": "62,74",
+                        "endOffsets": "113,188"
+                    }
+                }
+            ]
+        }
+    ]
+}
