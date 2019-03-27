@@ -4,24 +4,7 @@
             "outputFile": "F:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-am\\values-am.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\vupro\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.8.0.aar\\9f2c162d10952d642d6cc83aa35f9508\\res\\values-am\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "283",
-                        "endColumns": "190",
-                        "endOffsets": "473"
-                    },
-                    "to": {
-                        "startLines": "29",
-                        "startColumns": "4",
-                        "startOffsets": "3080",
-                        "endColumns": "190",
-                        "endOffsets": "3266"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\vupro\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\8eaa22979377269679db33fce4dd61e2\\res\\values-am\\values-am.xml",
+                    "source": "C:\\Users\\JoachVu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\68f761dcc9d29f29c7723e1c5f5f15e6\\res\\values-am\\values-am.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\vupro\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\8fcbe360cfdcf00a72e61b60b934f349\\res\\values-am\\values.xml",
+                    "source": "C:\\Users\\JoachVu\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.8.0.aar\\c28bb90720991a1d4e328d90fad50db8\\res\\values-am\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "283",
+                        "endColumns": "190",
+                        "endOffsets": "473"
+                    },
+                    "to": {
+                        "startLines": "29",
+                        "startColumns": "4",
+                        "startOffsets": "3080",
+                        "endColumns": "190",
+                        "endOffsets": "3266"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\JoachVu\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\8fd26e8c47d72acdcd6deff3f501544e\\res\\values-am\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",

@@ -6,12 +6,13 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 export default class HomeComponent extends Component {
   constructor(props) {
     super(props);
-    this.itemsRef = firebaseApp.database().ref('data');
     this.state = {
       items: []
     };
   }
   componentDidMount() {
+    //gọi lên server đặt trong try catch
+    this.itemsRef = firebaseApp.database().ref('data');
     this.itemsRef.on('value', (snapshot) => {
       let data = snapshot.val();
       let items = Object.values(data);
@@ -26,12 +27,14 @@ export default class HomeComponent extends Component {
       <Icon name="home" size={20} color="#fff" />
     )
   })
+  
+  renderItem
 
   render() {
     return (
         <FlatList
           data={this.state.items}
-          keyExtractor={item => item.phone}
+          keyExtractor={(item,index) => index.toString()}
           renderItem={({ item, i }) => (
             <TouchableOpacity onPress={() => this.props.navigation.navigate('ThongTin', { imageAdd: item.imageAdd, name: item.key, add: item.add, phone: item.phone, infor: item.infor })}>
               <View style={{

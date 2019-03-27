@@ -4,7 +4,7 @@
             "outputFile": "F:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\vupro\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-auth-11.8.0.aar\\340ca5d009997df7afd2850d7b4db8b2\\res\\values-watch-v20\\values.xml",
+                    "source": "C:\\Users\\JoachVu\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-auth-11.8.0.aar\\77694d771c0adbafeb9449d6fe039858\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
