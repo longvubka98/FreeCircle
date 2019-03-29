@@ -1,5 +1,5 @@
-import { Dimensions } from 'react-native';
-import { createBottomTabNavigator, createStackNavigator, createAppContainer, createDrawerNavigator } from 'react-navigation';
+import { Dimensions, View, Image, ScrollView } from 'react-native';
+import { createBottomTabNavigator, createStackNavigator, createAppContainer, createDrawerNavigator, DrawerItems } from 'react-navigation';
 import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs'
 import BangTin from './pages/BangTin';
 import DoDaNhan from './pages/DoDaNhan';
@@ -8,6 +8,7 @@ import DangDo from './pages/DangDo';
 import Login from './pages/Login'
 import SignUp from './pages/Signup'
 import ThongTin from './pages/ThongTin'
+import CustomDrawerComponent from './components/DrawerComponent'
 // import Recived from './pages/Recived'
 var { height, width } = Dimensions.get('window');
 let RouteConfigs = {
@@ -57,6 +58,7 @@ const Drawer = createDrawerNavigator({
   Me: DoDaDang
 },
   {
+    contentComponent: CustomDrawerComponent,
     drawerWidth: width / 1.61,
     drawerPosition: 'left',
     contentOptions: {

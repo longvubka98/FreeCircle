@@ -10710,7 +10710,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -10741,6 +10741,7 @@
   <component name="PropertiesComponent">
     <property name="device.picker.selection" value="EUC4C16616002613" />
     <property name="last_opened_file_path" value="F:/1.Jobs/Dev/FTeach.ai/React-native/react-native-redux-saga-example-master" />
+    <property name="show.do.not.ask.upgrade.gradle.plugin" value="3.1.4" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">

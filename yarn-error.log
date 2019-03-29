@@ -1,0 +1,60 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\JoachVu\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Python37\Scripts\;C:\Python37\;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\dotnet\;C:\Users\JoachVu\.windows-build-tools\python27\;C:\Users\JoachVu\AppData\Roaming\npm\node_modules\windows-build-tools\node_modules\.bin;C:\Users\JoachVu\AppData\Roaming\npm\node_modules\.bin;C:\Python37\Scripts\;C:\Python37\;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Users\JoachVu\.windows-build-tools\python27\;C:\Users\JoachVu\AppData\Roaming\npm\node_modules\windows-build-tools\node_modules\.bin;C:\Users\JoachVu\AppData\Roaming\npm\node_modules\.bin;C:\Users\JoachVu\AppData\Local\Microsoft\WindowsApps;C:\Users\JoachVu\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js;
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  11.12.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'F:\2.Study\FreeCircle\node_modules\.cache\@babel\register'
+
+npm manifest: 
+  {
+    "name": "FreeCircle",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+      "start": "node node_modules/react-native/local-cli/cli.js start",
+      "test": "jest"
+    },
+    "dependencies": {
+      "firebase": "^5.6.0",
+      "native-base": "^2.12.1",
+      "react": "16.6.1",
+      "react-native": "0.57.7",
+      "react-native-elements": "^0.19.1",
+      "react-native-facebook-account-kit": "^1.1.0",
+      "react-native-fbsdk": "^0.8.0",
+      "react-native-gesture-handler": "^1.1.0",
+      "react-native-image-crop-picker": "^0.21.3",
+      "react-native-image-resizer": "^1.0.0",
+      "react-native-paper": "^2.13.0",
+      "react-native-vector-icons": "^6.1.0",
+      "react-navigation": "^3.0.5",
+      "react-navigation-material-bottom-tabs": "^1.0.0",
+      "rn-fetch-blob": "^0.10.14"
+    },
+    "devDependencies": {
+      "babel-jest": "23.6.0",
+      "jest": "23.6.0",
+      "metro-react-native-babel-preset": "0.50.0",
+      "react-test-renderer": "16.6.1"
+    },
+    "jest": {
+      "preset": "react-native"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

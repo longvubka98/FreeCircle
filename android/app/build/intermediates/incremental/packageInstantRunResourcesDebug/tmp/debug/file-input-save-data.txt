@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Mar 26 23:16:46 PDT 2019
+#Thu Mar 28 00:41:09 ICT 2019
 17.baseType=DIRECTORY
 4.path=fonts/FontAwesome5_Regular.ttf
 8.set=ASSET
@@ -8,7 +8,7 @@
 4.baseType=DIRECTORY
 14.base=F\:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\assets\\debug
 16.set=ASSET
-count=18
+count=19
 6.base=F\:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\assets\\debug
 13.path=fonts/Zocial.ttf
 6.baseType=DIRECTORY
@@ -39,26 +39,30 @@ count=18
 16.baseType=DIRECTORY
 14.set=ASSET
 2.base=F\:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\assets\\debug
+18.baseType=DIRECTORY
 1.path=fonts/EvilIcons.ttf
 0.set=ASSET
 1.baseType=DIRECTORY
 3.baseType=DIRECTORY
 5.set=ASSET
 9.base=F\:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\assets\\debug
-16.path=fonts/Octicons.ttf
+16.path=index.android.bundle
+18.base=F\:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\assets\\debug
 5.baseType=DIRECTORY
 11.base=F\:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\assets\\debug
 8.path=fonts/SimpleLineIcons.ttf
-17.path=fonts/FontAwesome5_Brands.ttf
+17.path=fonts/Octicons.ttf
 7.baseType=DIRECTORY
 3.base=F\:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\assets\\debug
 10.path=fonts/rubicon-icon-font.ttf
 13.set=ASSET
 2.path=fonts/Entypo.ttf
 9.baseType=DIRECTORY
+18.set=ASSET
 12.base=F\:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\assets\\debug
 4.set=ASSET
 9.path=fonts/Roboto.ttf
+18.path=fonts/FontAwesome5_Brands.ttf
 4.base=F\:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\assets\\debug
 11.path=fonts/AntDesign.ttf
 9.set=ASSET
