@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rIN\\values-en-rIN.xml",
+            "outputFile": "C:\\Users\\JoachVu\\Documents\\FreeCircle\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rIN\\values-en-rIN.xml",
             "map": [
                 {
                     "source": "C:\\Users\\JoachVu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\68f761dcc9d29f29c7723e1c5f5f15e6\\res\\values-en-rIN\\values-en-rIN.xml",

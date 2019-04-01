@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
+            "outputFile": "C:\\Users\\JoachVu\\Documents\\FreeCircle\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
                     "source": "C:\\Users\\JoachVu\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-auth-11.8.0.aar\\77694d771c0adbafeb9449d6fe039858\\res\\values-watch-v20\\values.xml",

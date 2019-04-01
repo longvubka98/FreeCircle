@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "outputFile": "C:\\Users\\JoachVu\\Documents\\FreeCircle\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
             "map": [
                 {
                     "source": "C:\\Users\\JoachVu\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.2-native.aar\\721f3b4b609811d83b246b8dc5ee1028\\res\\values-zh\\values-zh.xml",

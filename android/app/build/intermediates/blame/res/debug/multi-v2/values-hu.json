@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\2.Study\\FreeCircle\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hu\\values-hu.xml",
+            "outputFile": "C:\\Users\\JoachVu\\Documents\\FreeCircle\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hu\\values-hu.xml",
             "map": [
                 {
                     "source": "C:\\Users\\JoachVu\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-login-4.34.0.aar\\b1beebd2cb8de562e2f6ab08703fd83c\\res\\values-hu\\values-hu.xml",

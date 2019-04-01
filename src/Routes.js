@@ -1,28 +1,28 @@
-import { Dimensions, View, Image, ScrollView } from 'react-native';
-import { createBottomTabNavigator, createStackNavigator, createAppContainer, createDrawerNavigator, DrawerItems } from 'react-navigation';
+import { Dimensions } from 'react-native';
+import { createStackNavigator, createAppContainer, createDrawerNavigator } from 'react-navigation';
 import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs'
-import BangTin from './pages/BangTin';
-import DoDaNhan from './pages/DoDaNhan';
-import DoDaDang from './pages/DoDaDang';
-import DangDo from './pages/DangDo';
+import Home from './pages/Home';
+import Received from './pages/Received';
+import DoDaDang from './pages/MySharing';
+import Share from './pages/Share';
 import Login from './pages/Login'
 import SignUp from './pages/Signup'
-import ThongTin from './pages/ThongTin'
-import CustomDrawerComponent from './components/DrawerComponent'
+import Information from './pages/Infomation'
+import CustomDrawerComponent from './components/SideMenu'
 // import Recived from './pages/Recived'
 var { height, width } = Dimensions.get('window');
 let RouteConfigs = {
-  'BangTin': {
-    screen: BangTin,
+  'Home': {
+    screen: Home,
   },
-  'DoDaNhan': {
-    screen: DoDaNhan,
+  'Received': {
+    screen: Received,
   },
-  'DangDo': {
-    screen: DangDo,
+  'Share': {
+    screen: Share,
   },
-  'ThongTin': {
-    screen: ThongTin
+  'Information': {
+    screen: Information
   }
 };
 
@@ -31,25 +31,10 @@ let MaterialBottomTabNavigatorConfig = {
   labeled: true,
   activeColor: '#fff',
   inactiveColor: '#F5F5F5',
-  order: ['BangTin', 'DoDaNhan', 'DangDo'],
+  order: ['Home', 'Received', 'Share'],
   barStyle: {
    
   }
-  // tabBarPosition: 'bottom',
-  // animationEnabled: true,
-  // swipeEnabled: true,
-  // tabBarOptions: {
-  //   showIcon: true,
-  //   activeTintColor: 'blue',
-  // labelStyle: {
-  //   fontSize: 13,
-  // },
-  // style: {
-  //   backgroundColor: 'lightgray',
-  //   padding: -10
-  // },
-  // },
-  // order: ['BangTin', 'DoDaNhan', 'DangDo'],
 };
 
 const TabNavigator = createMaterialBottomTabNavigator(RouteConfigs, MaterialBottomTabNavigatorConfig);
@@ -70,7 +55,7 @@ const Stack = createStackNavigator({
   Login: Login,
   Drawer: Drawer,
   SignUp: SignUp,
-  ThongTin: ThongTin
+  Information: Information
 },
   {
     headerMode: 'none'
