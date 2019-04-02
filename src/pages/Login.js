@@ -22,9 +22,8 @@ export default class Login extends Component {
   async componentDidMount() {
     try {
       const token = await AsyncStorage.getItem(keyStore)
-      if (token == null || token == '')
-        return;
-      const response = await firebaseApp.auth().signInAndRetrieveDataWithCredential(firebase.auth.FacebookAuthProvider.credential(token));
+      if (!token) return;
+      // const response = await firebaseApp.auth().signInAndRetrieveDataWithCredential(firebase.auth.FacebookAuthProvider.credential(token));
       this.props.navigation.navigate('Drawer')
     } catch (ex) {
 
@@ -50,7 +49,8 @@ export default class Login extends Component {
       await firebaseApp.auth().signInAndRetrieveDataWithCredential(firebase.auth.FacebookAuthProvider.credential(accessToken));
       // lưu accesstoken
       await AsyncStorage.setItem(keyStore, accessToken);
-
+      console.log('aaaaa');
+      
       this.props.navigation.navigate('Drawer')
     } catch (ex) {
       console.error(ex);

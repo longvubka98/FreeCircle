@@ -37,7 +37,7 @@ let MaterialBottomTabNavigatorConfig = {
 
 const TabNavigator = createMaterialBottomTabNavigator(RouteConfigs, MaterialBottomTabNavigatorConfig);
 
-const Drawer = createDrawerNavigator({
+export const Drawer = createDrawerNavigator({
     Tab: TabNavigator,
     AboutMe: AboutMe,
     MySharing: MySharing,
@@ -54,4 +54,4 @@ const Drawer = createDrawerNavigator({
         }
     }
 )
-export default Drawer
+export default createAppContainer(Drawer)

@@ -27,7 +27,7 @@ import { firebaseApp } from './src/config';
 import PerLogin from './src/navigations/PerLogin';
 import LoggedNavigation from './src/navigations/Logged';
 
-console.disableYellowBox = true;
+// console.disableYellowBox = true;
 
 export default class App extends React.Component {
   constructor() {
@@ -39,24 +39,20 @@ export default class App extends React.Component {
   }
 
   async _loadAssetsAsync() {
-    await console.log("user");
-    try {
-      const user = firebaseApp.auth().currentUser;
-        console.log("user", user);
-        if (user) {
-          this.setState({
-            isLogged: true,
-            loaded: true
-          });
-        } else {
-          this.setState({
-            isLogged: false,
-            loaded: true
-          });
-        }
-    } catch (ex){
-      console.log(ex);
-    }
+  await firebaseApp.auth().onAuthStateChanged((user) => {
+      console.log("user", user);
+      if (user) {
+        this.setState({
+          isLogged: true,
+          loaded: true
+        });
+      } else {
+        this.setState({
+          isLogged: false,
+          loaded: true
+        });
+      }
+    });
   }
 
   componentDidMount() {
@@ -66,6 +62,7 @@ export default class App extends React.Component {
   render() {
     const { isLogged, loaded } = this.state;
     console.log("loaded", loaded);
+    console.log("isLogged", isLogged);
 
     if (!loaded) {
       return (
@@ -76,13 +73,13 @@ export default class App extends React.Component {
     if (!isLogged) {
       return (
         <Root>
-          <LoggedNavigation />
+          <PerLogin />
         </Root>
       );
     } else {
       return (
         <Root>
-          <PerLogin />
+          <LoggedNavigation />
         </Root>
       );
     }
